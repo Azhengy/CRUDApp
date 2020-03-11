@@ -37,7 +37,7 @@ const styles = theme => ({
 
 const API = process.env.REACT_APP_API || 'http://localhost:3001'
 
-class PostManger extends Component {
+class PostsManager extends Component {
     state = {
         loading: true,
         posts: [],
